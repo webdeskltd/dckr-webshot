@@ -1,6 +1,6 @@
 # webshot based on openSuse:42.1
 -
-[![](https://images.microbadger.com/badges/image/webdeskltd/lantern.svg)](https://microbadger.com/images/webdeskltd/lantern "Get your own image badge on microbadger.com") [![](https://images.microbadger.com/badges/version/webdeskltd/lantern.svg)](https://microbadger.com/images/webdeskltd/lantern "Get your own version badge on microbadger.com")
+[![](https://images.microbadger.com/badges/image/webdeskltd/webshot.svg)](https://microbadger.com/images/webdeskltd/webshot "Get your own image badge on microbadger.com") [![](https://images.microbadger.com/badges/version/webdeskltd/webshot.svg)](https://microbadger.com/images/webdeskltd/webshot "Get your own version badge on microbadger.com")
 
 Run it:
 
