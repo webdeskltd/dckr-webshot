@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build --rm -t dckr-webshot .
+docker build --rm -t webdeskltd/webshot .
