@@ -5,6 +5,7 @@ RUN zypper --non-interactive --quiet --gpg-auto-import-keys ref
 RUN zypper --non-interactive --quiet up
 
 RUN zypper --non-interactive --quiet in tar curl net-tools ca-certificates postfix git fontconfig fontconfig-devel
+RUN zypper --non-interactive --quiet in yast2-fonts paratype-pt-mono-fonts paratype-pt-sans-fonts paratype-pt-serif-fonts sil-charis-fonts terminus-bitmap-fonts thessalonica-oldstandard-otf-fonts thessalonica-theano-otf-fonts thryomanes-fonts google-symbolneu-fonts google-tinos-fonts google-opensans-fonts google-croscore-fonts google-cousine-fonts google-arimo-fonts gnu-free-fonts fonts-config fontconfig dejavu-fonts cyreal-lobster-cyrillic-fonts cm-unicode-fonts cantarell-fonts
 RUN zypper clean --all
 
 # Nodejs
