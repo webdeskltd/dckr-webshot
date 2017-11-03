@@ -16,6 +16,6 @@ Run it:
 
 or
 
-	`docker run dckr-webshot`
+	`docker run webdeskltd/webshot`
 
 for more help
