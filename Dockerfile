@@ -22,12 +22,6 @@ ENV PATH /usr/local/nodejs/bin:$PATH
 
 ## PhantomJS
 RUN curl -L 'https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.1.1-linux-x86_64.tar.bz2' \
-  -H 'Host: bitbucket.org' \
-  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:56.0) Gecko/20100101 Firefox/56.0' \
-  -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8' \
-  -H 'Accept-Language: ru-RU,ru;q=0.91,en;q=0.82,zh-CN;q=0.73,ar-SY;q=0.64,hi;q=0.55,es-ES;q=0.45,bn;q=0.36,pt;q=0.27,ja;q=0.18,de;q=0.09' \
-  -H 'Referer: http://phantomjs.org/download.html' \
-  -H 'Connection: keep-alive' \
   -H 'Upgrade-Insecure-Requests: 1' | bzip2 -d - | tar x -C /usr/local
 RUN ln -s --directory -v /usr/local/phantomjs-2.1.1-linux-x86_64 /usr/local/phantomjs
 RUN ln -s --directory -v /usr/local/phantomjs/bin/phantomjs /usr/local/bin/phantomjs
